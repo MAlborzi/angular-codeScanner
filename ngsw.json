@@ -1,0 +1,81 @@
+{
+  "configVersion": 1,
+  "timestamp": 1674032788306,
+  "index": "/angular-codeScanner/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/angular-codeScanner/favicon.ico",
+        "/angular-codeScanner/index.html",
+        "/angular-codeScanner/main.0bb6deb0fbe6a56e.js",
+        "/angular-codeScanner/manifest.webmanifest",
+        "/angular-codeScanner/polyfills.488aab907f3d4693.js",
+        "/angular-codeScanner/runtime.d68e5750b50326a3.js",
+        "/angular-codeScanner/styles.ef46db3751d8e999.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/angular-codeScanner/assets/icons/icon-128x128.png",
+        "/angular-codeScanner/assets/icons/icon-144x144.png",
+        "/angular-codeScanner/assets/icons/icon-152x152.png",
+        "/angular-codeScanner/assets/icons/icon-192x192.png",
+        "/angular-codeScanner/assets/icons/icon-384x384.png",
+        "/angular-codeScanner/assets/icons/icon-512x512.png",
+        "/angular-codeScanner/assets/icons/icon-72x72.png",
+        "/angular-codeScanner/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/angular-codeScanner/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/angular-codeScanner/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/angular-codeScanner/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/angular-codeScanner/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/angular-codeScanner/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/angular-codeScanner/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/angular-codeScanner/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/angular-codeScanner/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/angular-codeScanner/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/angular-codeScanner/index.html": "19d6514089da6b8fe79fb7eb835742871b6bc0a5",
+    "/angular-codeScanner/main.0bb6deb0fbe6a56e.js": "6bcba4cdba182fc6ded0d8375596a12e15bed579",
+    "/angular-codeScanner/manifest.webmanifest": "12d32fee03b512c7d5691d809ce74f45329907d8",
+    "/angular-codeScanner/polyfills.488aab907f3d4693.js": "d3052890c6dd949f5e179651aaf064de3a5725ad",
+    "/angular-codeScanner/runtime.d68e5750b50326a3.js": "934178dbf1e8b36f401adef4446125533de53c71",
+    "/angular-codeScanner/styles.ef46db3751d8e999.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
